@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(233, 219, 219);
+}
+
+.navbar-nav.custom {
+    margin-left: auto;
+    margin-right: 0;
+    }
