@@ -41,3 +41,10 @@ nav .navbar-nav li a {
   .ex1{    
     color:white;
   }
+
+  .migracao {
+    width: 200px;
+    background-color: white;
+    border: 2px;
+    border-radius: 40px;
+  }
