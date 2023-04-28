@@ -42,9 +42,246 @@ nav .navbar-nav li a {
     color:white;
   }
 
-  .migracao {
-    width: 200px;
-    background-color: white;
-    border: 2px;
-    border-radius: 40px;
-  }
+  
+
+  .itensex{
+    width: auto;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(226, 209, 209);
+}
+
+.anima {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/*Div Migração*/
+.migribox {
+  width: 300px;
+  height: 380px;
+  margin-left: 80px;
+
+  position: relative;
+  background-color: rgb(255, 236, 236);
+  top: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+  transition: all 0.3s ease-in-out;
+  animation: anima-migra 10s linear infinite;
+}
+
+.migribox:hover {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+  transform: translate(-5px,-5px);
+  z-index: 1;
+}
+
+.migracao {
+  width: 190px;
+  right: 40px;
+  top: 60px;
+  left: 50px;
+  align-items: center;
+  position: absolute;   
+  border-radius: 10px;
+  
+}
+
+.migribox > a {
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 320px;
+  left: 85px;
+  text-decoration: none;
+}
+.migribox > p{
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 255px;
+  left: 85px;
+}
+
+/* Div Infraestutura*/
+
+.infrabox {
+  width: 300px;
+  height: 380px;
+  position: relative;
+  margin-left: 80px;
+  background-color: rgb(255, 236, 236);
+  top: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+  animation-delay: 2s;
+  transition: all 0.3s ease-in-out;
+  animation: anima-infra 10s linear infinite;
+
+}
+
+.infrabox:hover {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+  transform: translate(-5px,-5px);
+  z-index: 1;
+}
+
+.infra {
+  width: 190px;
+  right: 40px;
+  top: 60px;
+  left: 50px;
+  align-items: center;
+  position: absolute;   
+  border-radius: 10px;
+  
+}
+
+.infrabox > a {
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 320px;
+  left: 85px;
+  text-decoration: none;
+}
+.infrabox > p{
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 255px;
+  left: 85px;
+}
+
+/*Div Consultoria*/
+
+.consulbox {
+  width: 300px;
+  height: 380px;
+  margin-left: 80px;
+  position: relative;
+  background-color: rgb(255, 236, 236);
+  top: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+  transition: all 0.3s ease-in-out;
+  animation: anima-consul 10s linear infinite;
+  animation-delay: 0.5s;
+
+}
+
+.consulbox:hover {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+  transform: translate(-5px,-5px);
+  z-index: 1;
+}
+
+.consult {
+  width: 190px;
+  right: 40px;
+  top: 60px;
+  left: 50px;
+  align-items: center;
+  position: absolute;   
+  border-radius: 10px;
+  
+}
+
+.consulbox > a {
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 320px;
+  left: 85px;
+  text-decoration: none;
+}
+.consulbox > p{
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 255px;
+  left: 85px;
+}
+
+
+
+/*Div Suporte*/
+
+
+.suportbox {
+  width: 300px;
+  height: 380px;
+  margin-left: 80px;
+
+  position: relative;
+  background-color: rgb(255, 236, 236);
+  top: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
+  transition: all 0.3s ease-in-out;
+  animation: anima-suport 10s linear infinite;
+  animation-delay: 0.5s;
+
+}
+
+.suportbox:hover {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.4);
+  transform: translate(-5px,-5px);
+  z-index: 1;
+}
+
+.suport {
+  width: 190px;
+  right: 40px;
+  top: 60px;
+  left: 50px;
+  align-items: center;
+  position: absolute;   
+  border-radius: 10px;
+  
+}
+
+.suportbox > a {
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 320px;
+  left: 85px;
+  text-decoration: none;
+}
+.suportbox > p{
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 255px;
+  left: 85px;
+}
+
+
+
+
+@keyframes anima-migra {
+  from { transform: translateX(800%); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes anima-infra {
+  from { transform: translateX(700%); }
+  to { transform: translateX(-200%); }
+}
+
+
+keyframes anima-consul {
+  from { transform: translateX(800%); }
+  to { transform: translateX(-100%); }
+}
+
+keyframes anima-suport{
+  from { transform: translateX(800%); }
+  to { transform: translateX(-100%); }
+}
