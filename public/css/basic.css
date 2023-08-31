@@ -6,8 +6,18 @@ body {
     background-color: #01476d;
     font-size: 16px;
 }
+h1{
+  color:azure;
+  position: absolute;
+  left: 30%;
+  top: 5%;
+}
 
-
+img{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
 .geral {
     padding: 3em;
 
