@@ -16,6 +16,13 @@ body {
     margin-left: auto;
     margin-right: 0;
     }
+.logobav {
+  width: 40px;
+
+}
+
+
+
 
 .logo1{
   height: 600px;
@@ -55,6 +62,7 @@ nav .navbar-nav li a {
 .anima {
   position: absolute;
   display: flex;
+  left: 110px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -68,7 +76,7 @@ nav .navbar-nav li a {
 
   position: relative;
   background-color: rgb(255, 236, 236);
-  top: 80px;
+  top: 150px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
   transition: all 0.3s ease-in-out;
@@ -116,7 +124,7 @@ nav .navbar-nav li a {
   position: relative;
   margin-left: 80px;
   background-color: rgb(255, 236, 236);
-  top: 80px;
+  top: 150px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
   animation-delay: 2s;
@@ -166,7 +174,7 @@ nav .navbar-nav li a {
   margin-left: 80px;
   position: relative;
   background-color: rgb(255, 236, 236);
-  top: 80px;
+  top: 150px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
   transition: all 0.3s ease-in-out;
@@ -220,7 +228,7 @@ nav .navbar-nav li a {
 
   position: relative;
   background-color: rgb(255, 236, 236);
-  top: 80px;
+  top: 150px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4);
   transition: all 0.3s ease-in-out;
@@ -264,15 +272,15 @@ nav .navbar-nav li a {
 
 
 
-
+/*
 @keyframes anima-migra {
   from { transform: translateX(800%); }
-  to { transform: translateX(-100%); }
+  to { transform: translateX(-140%); }
 }
 
 @keyframes anima-infra {
-  from { transform: translateX(700%); }
-  to { transform: translateX(-200%); }
+  from { transform: translateX(800%); }
+  to { transform: translateX(-140%); }
 }
 
 
@@ -285,3 +293,5 @@ keyframes anima-suport{
   from { transform: translateX(800%); }
   to { transform: translateX(-100%); }
 }
+
+*/
